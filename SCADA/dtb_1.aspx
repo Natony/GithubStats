@@ -42,24 +42,32 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="lookup.aspx" id="li_lookup">Tra Cứu Dữ Liệu</a>
+                        <a id="li_lookup">Tra Cứu Dữ Liệu</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="lookup.aspx">Tra Cứu Dữ Liệu Hệ Thống 1</a>
+                            </li>
+                            <li>
+                                <a href="lookup_2.aspx">Tra Cứu Dữ Liệu Hệ Thống 2</a>
+                            </li>                               
+                        </ul>
                     </li>
                     <li>
-                        <a id="li_topic">Giới Thiệu Đề Tài</a>
+                        <a href="topic_1.aspx" id="li_topic">Giới Thiệu Đề Tài</a>
                         <ul class="sub-menu">
                             <li>
                                 <a href="topic_1.aspx">Hệ Thống Chiết Rót Nước Tự Động</a>
                             </li>
                             <li>
-                                <a href="topic_2.aspx">Hệ thống 2</a>
+                                <a href="topic_2.aspx">Hệ Thống Sản Xuất Bánh Tự Động</a>
                             </li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
+        <h1 style="margin-right: 20px; text-align:center">Hệ thống 1</h1>
         <div class="table_data">
-            <h1 style="margin-right: 20px">Hệ thống 1</h1>
             <asp:Literal ID="Literal_HienThiGiaTri" runat="server"></asp:Literal>
         </div>
     </form>

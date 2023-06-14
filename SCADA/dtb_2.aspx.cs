@@ -10,18 +10,13 @@ using System.Text;
 
 public partial class dtb_2 : System.Web.UI.Page
 {
-    dtb _sql;
-    int _currentPage = 1;
-    int _pageSize = 20;
-
+    dtb2 _sql;
     protected void Page_Load(object sender, EventArgs e)
     {
-        string connectionString = ConfigurationManager.ConnectionStrings["ConStr"].ToString();
-        _sql = new dtb(connectionString);
-
-            HienThiGiaTri();
+        string connectionString = ConfigurationManager.ConnectionStrings["ConStr2"].ToString();
+        _sql = new dtb2(connectionString);
+        HienThiGiaTri();
     }
-
     void HienThiGiaTri()
     {
         string html1 =
@@ -56,7 +51,6 @@ public partial class dtb_2 : System.Web.UI.Page
             }
         }
         string html3 = "</table>";
-        Literal_HienThiGiaTri.Text = html1 + html2 + html3;
+        Literal2_HienThiGiaTri.Text = html1 + html2 + html3;
     }
-
 }

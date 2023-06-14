@@ -41,36 +41,62 @@
                             </li>
                         </ul>
                      </li>
-                     <li>
-                         <a href="lookup.aspx" id="li_lookup">Tra Cứu Dữ Liệu</a>
-                     </li>
-                     <li>
-                         <a id="li_topic">Giới Thiệu Đề Tài</a>
-                             <ul class="sub-menu">
-                                 <li>
-                                     <a href="topic_1.aspx">Hệ Thống Chiết Rót Nước Tự Động</a>
-                                 </li>
-                                 <li>
-                                     <a href="topic_2.aspx">Hệ thống 2</a>
-                                 </li>
-
-                             </ul>
-                     </li>
+                    <li>
+                        <a id="li_lookup">Tra Cứu Dữ Liệu</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="lookup.aspx">Tra Cứu Dữ Liệu Hệ Thống 1</a>
+                            </li>
+                            <li>
+                                <a href="lookup_2.aspx">Tra Cứu Dữ Liệu Hệ Thống 2</a>
+                            </li>                               
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="topic_1.aspx" id="li_topic">Giới Thiệu Đề Tài</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="topic_1.aspx">Hệ Thống Chiết Rót Nước Tự Động</a>
+                            </li>
+                            <li>
+                                <a href="topic_2.aspx">Hệ Thống Sản Xuất Bánh Tự Động</a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
+
         <div class="topic-content">
             <div style =" margin: 10px auto 10px 20px">
                  <h1 style ="font-size: 2rem; font-family:serif; color: red; text-align: center"> Hệ Thống Chiết Rót Nước Tự Động</h1>
+            </div>
+            <div>
+                <h1 style ="font-size: 1.8rem; margin: 25px auto auto 300px; font-family:serif; color: red"> 1. Hình Ảnh Minh Họa Giám Sát SCADA</h1>
+                <div style ="text-align: center; margin-top: 25px">
+                    <img src ="img/he_thong.jpg"  style =" width: 50%;"/>
+                </div>
+            </div>
+            <div>
+                <h1 style ="font-size: 1.8rem; margin: 25px auto auto 300px; font-family:serif; color: red"> 2. Video Mô Phỏng Giám Sát SCADA</h1>
+            </div>
+            <div style ="text-align: center; margin-top: 25px">
+                <video width="50%" src="Video/Video.mp4" type="video/mp4" controls></video>
+            </div>
+            <div>
+                <h1 style ="font-size: 1.8rem; margin: 25px auto auto 300px; font-family:serif; color: red"> 3. Video Minh Họa Hệ Thống Thực Tế</h1>
+            </div>
+            <div style ="text-align: center; margin-top: 25px">
+                <video width="50%" src="Video/he_thong_chiet_rot.mp4" type ="video/mp4" controls></video>
             </div>
             <div style ="margin-bottom: 10px; margin-left: 20px; text-align: justify">
                 <h1 style ="font-size: 1.6rem; text-align: justify">1. Hệ thống chiết rót đóng chai là gì?</h1>
             </div>
             <p  style ="font-size: 1.3rem; margin: 10px 20px auto 20px; line-height: 30px;text-align: justify" >
-                -	Hệ thống chiết rót đóng chai là một hệ thống chiết rót đóng chai được sử dụng để làm đầy chất lỏng vào chai. Nó được thiết kế để chiết rót đúng thể tích mong muốn vào mỗi chai, đóng nắp cho sản phẩm và gom thùng sản phẩm theo yêu cầu.
+                -	Hệ thống làm bánh tự động là một loại máy hoặc dây chuyền sản xuất được thiết kế để tự động sản xuất các loại bánh và sản phẩm bánh ngọt khác.
             </p>
             <p style ="font-size: 1.3rem; margin: 10px 20px auto 20px; line-height: 30px; text-align: justify">
-                -	Hệ thống đóng chai tự động là máy hiện đại có thể tự động đóng chai theo dây chuyền đóng gói tự động, chuyên dụng cho ngành công nghiệp sản phẩm nước đóng chai, trong ngành thực phẩm, hóa chất, dược phẩm…
+                -	Nó bao gồm các thiết bị và máy móc được kết hợp với các hệ thống điều khiển và phần mềm để thực hiện các công đoạn sản xuất bánh từ quá trình trộn nguyên liệu cho đến giai đoạn hoàn thiện và đóng gói sản phẩm.
             </p>
             <p style ="font-size: 1.3rem; margin: 10px 20px 30px 20px; line-height: 30px; text-align: justify">
                 -	Chiết rót và đóng nắp chai là hệ thống máy sản xuất nước đang rất được nhiều người sản xuất lựa chọn vì nhu cầu của người tiêu dùng đang hướng tới dòng sản phẩm nước đóng chai để đảm bảo đủ độ vệ sinh và an toàn, tiện lợi khi sử dụng.
