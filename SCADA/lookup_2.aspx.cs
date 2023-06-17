@@ -13,7 +13,7 @@ public partial class lookup_2 : System.Web.UI.Page
     string Name, startValue, endValue, startTime, endTime;
     protected void Page_Load(object sender, EventArgs e)
     {
-        string connectionString = ConfigurationManager.ConnectionStrings["ConStr"].ToString();
+        string connectionString = ConfigurationManager.ConnectionStrings["ConStr2"].ToString();
         _sql = new SQL_MNP2(connectionString);
         //HienThiGiaTri(Name, startValue, endValue, startTime, endTime);
     }
