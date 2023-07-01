@@ -46,7 +46,7 @@ end
 
 
 % --- Executes just before UserInterface is made visible.
-function UserInterface_OpeningFcn(hObject, ~, handles, varargin)
+function UserInterface_OpeningFcn(hObject, eventdata, handles, varargin)
 % This function has no output args, see OutputFcn.
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
@@ -64,7 +64,7 @@ guidata(hObject, handles);
 
 
 % --- Outputs from this function are returned to the command line.
-function varargout = UserInterface_OutputFcn(~, ~, handles) 
+function varargout = UserInterface_OutputFcn(hObject, eventdata, handles) 
 % varargout  cell array for returning output args (see VARARGOUT);
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
@@ -75,7 +75,7 @@ varargout{1} = handles.output;
 
 
 % --- Executes on slider movement.
-function slider1_Callback(~, ~, handles)
+function slider1_Callback(hObject, eventdata, handles)
 % hObject    handle to slider1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
@@ -83,7 +83,7 @@ function slider1_Callback(~, ~, handles)
 % Hints: get(hObject,'Value') returns position of slider
 %        get(hObject,'Min') and get(hObject,'Max') to determine range of slider
 ModelName='RoboticArmModel';
-
+global var;
 
 t1=get(handles.slider1,'value');%obtenir la valeur du slider
 set(handles.edit1,'string',num2str(t1));
@@ -121,7 +121,7 @@ set(handles.edit8,'string',num2str(Py));
 set(handles.edit9,'string',num2str(Pz));
 
 % --- Executes during object creation, after setting all properties.
-function slider1_CreateFcn(hObject, ~, ~)
+function slider1_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to slider1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
@@ -133,7 +133,7 @@ end
 
 
 % --- Executes on slider movement.
-function slider2_Callback(~, ~, handles)
+function slider2_Callback(hObject, eventdata, handles)
 % hObject    handle to slider2 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
@@ -141,7 +141,7 @@ function slider2_Callback(~, ~, handles)
 % Hints: get(hObject,'Value') returns position of slider
 %        get(hObject,'Min') and get(hObject,'Max') to determine range of slider
  ModelName='RoboticArmModel';
-
+global var;
 
 t1=get(handles.slider1,'value');%obtenir la valeur du slider
 set(handles.edit1,'string',num2str(t1));
@@ -180,7 +180,7 @@ set(handles.edit9,'string',num2str(Pz));
 
 
 % --- Executes during object creation, after setting all properties.
-function slider2_CreateFcn(hObject, ~, ~)
+function slider2_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to slider2 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
@@ -192,12 +192,12 @@ end
 
 
 % --- Executes on slider movement.
-function slider3_Callback(~, ~, handles)
+function slider3_Callback(hObject, eventdata, handles)
 % hObject    handle to slider3 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 ModelName='RoboticArmModel';
-
+global var;
 
 t1=get(handles.slider1,'value');%obtenir la valeur du slider
 set(handles.edit1,'string',num2str(t1));
@@ -238,7 +238,7 @@ set(handles.edit9,'string',num2str(Pz));
 %        get(hObject,'Min') and get(hObject,'Max') to determine range of slider
 
 % --- Executes during object creation, after setting all properties.
-function slider3_CreateFcn(hObject, ~, ~)
+function slider3_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to slider3 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
@@ -250,13 +250,13 @@ end
 
 
 % --- Executes on slider movement.
-function slider4_Callback(~, ~, handles)
+function slider4_Callback(hObject, eventdata, handles)
 % hObject    handle to slider4 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 ModelName='RoboticArmModel';
-
+global var;
 
 t1=get(handles.slider1,'value');%obtenir la valeur du slider
 set(handles.edit1,'string',num2str(t1));
@@ -296,7 +296,7 @@ set(handles.edit9,'string',num2str(Pz));
 %        get(hObject,'Min') and get(hObject,'Max') to determine range of slider
 
 % --- Executes during object creation, after setting all properties.
-function slider4_CreateFcn(hObject, ~, ~)
+function slider4_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to slider4 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
@@ -308,7 +308,7 @@ end
 
 
 % --- Executes on slider movement.
-function slider6_Callback(~, ~, ~)
+function slider6_Callback(hObject, eventdata, handles)
 % hObject    handle to slider6 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
@@ -318,7 +318,7 @@ function slider6_Callback(~, ~, ~)
 
 
 % --- Executes during object creation, after setting all properties.
-function slider6_CreateFcn(hObject, ~, ~)
+function slider6_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to slider6 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
@@ -330,7 +330,7 @@ end
 
 
 % --- Executes on slider movement.
-function slider7_Callback(~, ~, ~)
+function slider7_Callback(hObject, eventdata, handles)
 % hObject    handle to slider7 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
@@ -340,7 +340,7 @@ function slider7_Callback(~, ~, ~)
 
 
 % --- Executes during object creation, after setting all properties.
-function slider7_CreateFcn(hObject, ~, ~)
+function slider7_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to slider7 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
@@ -352,7 +352,7 @@ end
 
 
 
-function edit1_Callback(~, ~, ~)
+function edit1_Callback(hObject, eventdata, handles)
 % hObject    handle to edit1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
@@ -362,7 +362,7 @@ function edit1_Callback(~, ~, ~)
 
 
 % --- Executes during object creation, after setting all properties.
-function edit1_CreateFcn(hObject, ~, ~)
+function edit1_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
@@ -375,7 +375,7 @@ end
 
 
 
-function edit2_Callback(~, ~, ~)
+function edit2_Callback(hObject, eventdata, handles)
 % hObject    handle to edit2 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
@@ -385,7 +385,7 @@ function edit2_Callback(~, ~, ~)
 
 
 % --- Executes during object creation, after setting all properties.
-function edit2_CreateFcn(hObject, ~, ~)
+function edit2_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit2 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
@@ -398,7 +398,7 @@ end
 
 
 
-function edit3_Callback(~, ~, ~)
+function edit3_Callback(hObject, eventdata, handles)
 % hObject    handle to edit3 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
@@ -408,7 +408,7 @@ function edit3_Callback(~, ~, ~)
 
 
 % --- Executes during object creation, after setting all properties.
-function edit3_CreateFcn(hObject, ~, ~)
+function edit3_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit3 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
@@ -421,7 +421,7 @@ end
 
 
 
-function edit4_Callback(~, ~, ~)
+function edit4_Callback(hObject, eventdata, handles)
 % hObject    handle to edit1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
@@ -431,7 +431,7 @@ function edit4_Callback(~, ~, ~)
 
 
 % --- Executes during object creation, after setting all properties.
-function edit4_CreateFcn(hObject, ~, ~)
+function edit4_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
@@ -444,7 +444,7 @@ end
 
 
 
-function edit5_Callback(~, ~, ~)
+function edit5_Callback(hObject, eventdata, handles)
 % hObject    handle to edit5 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
@@ -454,7 +454,7 @@ function edit5_Callback(~, ~, ~)
 
 
 % --- Executes during object creation, after setting all properties.
-function edit5_CreateFcn(hObject, ~, ~)
+function edit5_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit5 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
@@ -467,7 +467,7 @@ end
 
 
 
-function edit6_Callback(~, ~, ~)
+function edit6_Callback(hObject, eventdata, handles)
 % hObject    handle to edit6 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
@@ -477,7 +477,7 @@ function edit6_Callback(~, ~, ~)
 
 
 % --- Executes during object creation, after setting all properties.
-function edit6_CreateFcn(hObject, ~, ~)
+function edit6_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit6 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
@@ -490,7 +490,7 @@ end
 
 
 
-function edit7_Callback(~, ~, ~)
+function edit7_Callback(hObject, eventdata, handles)
 % hObject    handle to edit7 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
@@ -500,7 +500,7 @@ function edit7_Callback(~, ~, ~)
 
 
 % --- Executes during object creation, after setting all properties.
-function edit7_CreateFcn(hObject, ~, ~)
+function edit7_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit7 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
@@ -513,7 +513,7 @@ end
 
 
 
-function edit8_Callback(~, ~, ~)
+function edit8_Callback(hObject, eventdata, handles)
 % hObject    handle to edit8 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
@@ -523,7 +523,7 @@ function edit8_Callback(~, ~, ~)
 
 
 % --- Executes during object creation, after setting all properties.
-function edit8_CreateFcn(hObject, ~, ~)
+function edit8_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit8 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
@@ -536,7 +536,7 @@ end
 
 
 
-function edit9_Callback(~, ~, ~)
+function edit9_Callback(hObject, eventdata, handles)
 % hObject    handle to edit9 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
@@ -546,7 +546,7 @@ function edit9_Callback(~, ~, ~)
 
 
 % --- Executes during object creation, after setting all properties.
-function edit9_CreateFcn(hObject, ~, ~)
+function edit9_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit9 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
@@ -559,7 +559,7 @@ end
 
 
 
-function edit13_Callback(~, ~, ~)
+function edit13_Callback(hObject, eventdata, handles)
 % hObject    handle to edit2 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
@@ -569,7 +569,7 @@ function edit13_Callback(~, ~, ~)
 
 
 % --- Executes during object creation, after setting all properties.
-function edit13_CreateFcn(hObject, ~, ~)
+function edit13_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to edit2 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
@@ -582,13 +582,13 @@ end
 
 
 % --- Executes on button press in pushbutton1.
-function pushbutton1_Callback(~, ~, handles)
+function pushbutton1_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 ModelName='RoboticArmModel';
-
+global var;
 
 t1=0;
 set(handles.edit1,'string',num2str(t1));
@@ -631,14 +631,14 @@ set(handles.edit9,'string',num2str(Pz));
 
 
 % --- Executes on button press in pushbutton2.
-function pushbutton2_Callback(~, ~, ~)
+function pushbutton2_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton2 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 close;
 % --- Executes on button press in pushbutton3.
-function pushbutton3_Callback(~, ~, ~)
+function pushbutton3_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton3 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
