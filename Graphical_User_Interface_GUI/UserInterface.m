@@ -23,7 +23,7 @@ function varargout = UserInterface(varargin)
 
 % Edit the above text to modify the response to help UserInterface
 
-% Last Modified by GUIDE v2.5 03-Feb-2023 17:51:28
+% Last Modified by GUIDE v2.5 04-Jul-2023 09:36:12
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -82,7 +82,7 @@ function slider1_Callback(hObject, eventdata, handles)
 
 % Hints: get(hObject,'Value') returns position of slider
 %        get(hObject,'Min') and get(hObject,'Max') to determine range of slider
-ModelName='RoboticArmModel';
+ModelName='RoboticArmModelV2';
 global var;
 
 t1=get(handles.slider1,'value');%obtenir la valeur du slider
@@ -106,10 +106,10 @@ set_param([ModelName '/Slider Gain3'],'Gain',num2str(t3));
 set_param([ModelName '/Slider Gain4'],'Gain',num2str(t4));
 
 
-A1=[cosd(t1)  -sind(t1)      0                  0      ;sind(t1)   cosd(t1)     0          0            ;0  0 1  0  ;0 0 0 1];
-A2=[cosd(t2)    0          -sind(t2)       150*cosd(t2);sind(t2)       0      cosd(t2)     150*sind(t2) ;0 -1 0 160 ;0 0 0 1];
-A3=[cosd(t3)  -sind(t3)      0             380*cosd(t3);sind(t3)   cosd(t3)     0          380*sind(t3) ;0  0 1  0  ;0 0 0 1];
-A4=[cosd(t4)  -sind(t4)      0         365*cosd(t4);sind(t4)   cosd(t4)     0          365*sind(t4) ;0  0 1  0  ;0 0 0 1];
+A1=[cosd(t1)  0      sind(t1)                  0      ;sind(t1)   0     -cosd(t1)          0            ;0  1 0  216.95  ;0 0 0 1];
+A2=[cosd(t2)    -sind(t2)          0       350*cosd(t2);sind(t2)       cosd(t2)      0     350*sind(t2) ;0 0 1 0 ;0 0 0 1];
+A3=[cosd(t3)  -sind(t3)      0             362.5*cosd(t3);sind(t3)   cosd(t3)     0          362.5*sind(t3) ;0  0 1  0  ;0 0 0 1];
+A4=[cosd(t4)  -sind(t4)      0         115*cosd(t4);sind(t4)   cosd(t4)     0          115*sind(t4) ;0  0 1  27.5  ;0 0 0 1];
 
 T= A1*A2*A3*A4;
 Px=T(1,4);
@@ -140,7 +140,7 @@ function slider2_Callback(hObject, eventdata, handles)
 
 % Hints: get(hObject,'Value') returns position of slider
 %        get(hObject,'Min') and get(hObject,'Max') to determine range of slider
- ModelName='RoboticArmModel';
+ ModelName='RoboticArmModelV2';
 global var;
 
 t1=get(handles.slider1,'value');%obtenir la valeur du slider
@@ -164,10 +164,10 @@ set_param([ModelName '/Slider Gain3'],'Gain',num2str(t3));
 set_param([ModelName '/Slider Gain4'],'Gain',num2str(t4));
 
 
-A1=[cosd(t1)  -sind(t1)      0                  0      ;sind(t1)   cosd(t1)     0          0            ;0  0 1  0  ;0 0 0 1];
-A2=[cosd(t2)    0          -sind(t2)       150*cosd(t2);sind(t2)       0      cosd(t2)     150*sind(t2) ;0 -1 0 160 ;0 0 0 1];
-A3=[cosd(t3)  -sind(t3)      0             380*cosd(t3);sind(t3)   cosd(t3)     0          380*sind(t3) ;0  0 1  0  ;0 0 0 1];
-A4=[cosd(t4)  -sind(t4)      0         365.58*cosd(t4);sind(t4)   cosd(t4)     0          365.58*sind(t4) ;0  0 1  0  ;0 0 0 1];
+A1=[cosd(t1)  0      sind(t1)                  0      ;sind(t1)   0     -cosd(t1)          0            ;0  1 0  216.95  ;0 0 0 1];
+A2=[cosd(t2)    -sind(t2)          0       350*cosd(t2);sind(t2)       cosd(t2)      0     350*sind(t2) ;0 0 1 0 ;0 0 0 1];
+A3=[cosd(t3)  -sind(t3)      0             362.5*cosd(t3);sind(t3)   cosd(t3)     0          362.5*sind(t3) ;0  0 1  0  ;0 0 0 1];
+A4=[cosd(t4)  -sind(t4)      0         115*cosd(t4);sind(t4)   cosd(t4)     0          115*sind(t4) ;0  0 1  27.5  ;0 0 0 1];
 
 T= A1*A2*A3*A4;
 Px=T(1,4);
@@ -196,7 +196,7 @@ function slider3_Callback(hObject, eventdata, handles)
 % hObject    handle to slider3 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-ModelName='RoboticArmModel';
+ModelName='RoboticArmModelV2';
 global var;
 
 t1=get(handles.slider1,'value');%obtenir la valeur du slider
@@ -220,10 +220,10 @@ set_param([ModelName '/Slider Gain3'],'Gain',num2str(t3));
 set_param([ModelName '/Slider Gain4'],'Gain',num2str(t4));
 
 
-A1=[cosd(t1)  -sind(t1)      0                  0      ;sind(t1)   cosd(t1)     0          0            ;0  0 1  0  ;0 0 0 1];
-A2=[cosd(t2)    0          -sind(t2)       150*cosd(t2);sind(t2)       0      cosd(t2)     150*sind(t2) ;0 -1 0 160 ;0 0 0 1];
-A3=[cosd(t3)  -sind(t3)      0             380*cosd(t3);sind(t3)   cosd(t3)     0          380*sind(t3) ;0  0 1  0  ;0 0 0 1];
-A4=[cosd(t4)  -sind(t4)      0         365.58*cosd(t4);sind(t4)   cosd(t4)     0          365.58*sind(t4) ;0  0 1  0  ;0 0 0 1];
+A1=[cosd(t1)  0      sind(t1)                  0      ;sind(t1)   0     -cosd(t1)          0            ;0  1 0  216.95  ;0 0 0 1];
+A2=[cosd(t2)    -sind(t2)          0       350*cosd(t2);sind(t2)       cosd(t2)      0     350*sind(t2) ;0 0 1 0 ;0 0 0 1];
+A3=[cosd(t3)  -sind(t3)      0             362.5*cosd(t3);sind(t3)   cosd(t3)     0          362.5*sind(t3) ;0  0 1  0  ;0 0 0 1];
+A4=[cosd(t4)  -sind(t4)      0         115*cosd(t4);sind(t4)   cosd(t4)     0          115*sind(t4) ;0  0 1  27.5  ;0 0 0 1];
 
 T= A1*A2*A3*A4;
 Px=T(1,4);
@@ -255,7 +255,7 @@ function slider4_Callback(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-ModelName='RoboticArmModel';
+ModelName='RoboticArmModelV2';
 global var;
 
 t1=get(handles.slider1,'value');%obtenir la valeur du slider
@@ -279,10 +279,10 @@ set_param([ModelName '/Slider Gain3'],'Gain',num2str(t3));
 set_param([ModelName '/Slider Gain4'],'Gain',num2str(t4));
 
 
-A1=[cosd(t1)  -sind(t1)      0                  0      ;sind(t1)   cosd(t1)     0          0            ;0  0 1  0  ;0 0 0 1];
-A2=[cosd(t2)    0          -sind(t2)       150*cosd(t2);sind(t2)       0      cosd(t2)     150*sind(t2) ;0 -1 0 160 ;0 0 0 1];
-A3=[cosd(t3)  -sind(t3)      0             380*cosd(t3);sind(t3)   cosd(t3)     0          380*sind(t3) ;0  0 1  0  ;0 0 0 1];
-A4=[cosd(t4)  -sind(t4)      0         365.58*cosd(t4);sind(t4)   cosd(t4)     0          365.58*sind(t4) ;0  0 1  0  ;0 0 0 1];
+A1=[cosd(t1)  0      sind(t1)                  0      ;sind(t1)   0     -cosd(t1)          0            ;0  1 0  216.95  ;0 0 0 1];
+A2=[cosd(t2)    -sind(t2)          0       350*cosd(t2);sind(t2)       cosd(t2)      0     350*sind(t2) ;0 0 1 0 ;0 0 0 1];
+A3=[cosd(t3)  -sind(t3)      0             362.5*cosd(t3);sind(t3)   cosd(t3)     0          362.5*sind(t3) ;0  0 1  0  ;0 0 0 1];
+A4=[cosd(t4)  -sind(t4)      0         115*cosd(t4);sind(t4)   cosd(t4)     0          115*sind(t4) ;0  0 1  27.5  ;0 0 0 1];
 
 T= A1*A2*A3*A4;
 Px=T(1,4);
@@ -307,49 +307,10 @@ if isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColo
 end
 
 
-% --- Executes on slider movement.
-function slider6_Callback(hObject, eventdata, handles)
-% hObject    handle to slider6 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'Value') returns position of slider
-%        get(hObject,'Min') and get(hObject,'Max') to determine range of slider
-
-
-% --- Executes during object creation, after setting all properties.
-function slider6_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to slider6 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    empty - handles not created until after all CreateFcns called
-
 % Hint: slider controls usually have a light gray background.
 if isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor',[.9 .9 .9]);
 end
-
-
-% --- Executes on slider movement.
-function slider7_Callback(hObject, eventdata, handles)
-% hObject    handle to slider7 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-% Hints: get(hObject,'Value') returns position of slider
-%        get(hObject,'Min') and get(hObject,'Max') to determine range of slider
-
-
-% --- Executes during object creation, after setting all properties.
-function slider7_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to slider7 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    empty - handles not created until after all CreateFcns called
-
-% Hint: slider controls usually have a light gray background.
-if isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
-    set(hObject,'BackgroundColor',[.9 .9 .9]);
-end
-
 
 
 function edit1_Callback(hObject, eventdata, handles)
@@ -587,7 +548,7 @@ function pushbutton1_Callback(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-ModelName='RoboticArmModel';
+ModelName='RoboticArmModelV2';
 global var;
 
 t1=0;
@@ -615,10 +576,10 @@ set_param([ModelName '/Slider Gain4'],'Gain',num2str(t4));
 
 
 
-A1=[cosd(t1)  -sind(t1)      0                  0      ;sind(t1)   cosd(t1)     0          0            ;0  0 1  0  ;0 0 0 1];
-A2=[cosd(t2)    0          -sind(t2)       150*cosd(t2);sind(t2)       0      cosd(t2)     150*sind(t2) ;0 -1 0 160 ;0 0 0 1];
-A3=[cosd(t3)  -sind(t3)      0             380*cosd(t3);sind(t3)   cosd(t3)     0          380*sind(t3) ;0  0 1  0  ;0 0 0 1];
-A4=[cosd(t4)  -sind(t4)      0          365.58*cosd(t4);sind(t4)   cosd(t4)     0          365.58*sind(t4) ;0  0 1  0  ;0 0 0 1];
+A1=[cosd(t1)  0      sind(t1)                  0      ;sind(t1)   0     -cosd(t1)          0            ;0  1 0  216.95  ;0 0 0 1];
+A2=[cosd(t2)    -sind(t2)          0       350*cosd(t2);sind(t2)       cosd(t2)      0     350*sind(t2) ;0 0 1 0 ;0 0 0 1];
+A3=[cosd(t3)  -sind(t3)      0             362.5*cosd(t3);sind(t3)   cosd(t3)     0          362.5*sind(t3) ;0  0 1  0  ;0 0 0 1];
+A4=[cosd(t4)  -sind(t4)      0         115*cosd(t4);sind(t4)   cosd(t4)     0          115*sind(t4) ;0  0 1  27.5  ;0 0 0 1];
 
 T= A1*A2*A3*A4;
 Px=T(1,4);
@@ -642,7 +603,7 @@ function pushbutton3_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton3 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-ModelName='RoboticArmModel';
+ModelName='RoboticArmModelV2';
 open_system(ModelName);
 
 
@@ -654,32 +615,94 @@ set_param(ModelName,'StartFcn','1');
 set_param(ModelName,'SimulationCommand','start');
 
 
+% --- Executes on slider movement.
+function slider_px_Callback(hObject, eventdata, handles)
+% hObject    handle to slider_px (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'Value') returns position of slider
+%        get(hObject,'Min') and get(hObject,'Max') to determine range of slider
+
+
 % --- Executes during object creation, after setting all properties.
-function axes8_CreateFcn(~, ~, ~)
-% hObject    handle to axes5 (see GCBO)
+function slider_px_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to slider_px (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
-imshow('C:\Users\20151\Desktop\Robotics\Final Project\Robotic_Arm_Real_Time_Control_Using_Matlab_GUI-main\Overview\LOGO-matlab.jpg');
-% Hint: place code in OpeningFcn to populate axes5
+
+% Hint: slider controls usually have a light gray background.
+if isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor',[.9 .9 .9]);
+end
+
+
+% --- Executes on slider movement.
+function slider_py_Callback(hObject, eventdata, handles)
+% hObject    handle to slider_py (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'Value') returns position of slider
+%        get(hObject,'Min') and get(hObject,'Max') to determine range of slider
 
 
 % --- Executes during object creation, after setting all properties.
-function axes9_CreateFcn(~, ~, ~)
-% hObject    handle to axes6 (see GCBO)
+function slider_py_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to slider_py (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
-imshow('C:\Users\20151\Desktop\Robotics\Final Project\Robotic_Arm_Real_Time_Control_Using_Matlab_GUI-main\Overview\Robot.png');
 
-% Hint: place code in OpeningFcn to populate axes6
+% Hint: slider controls usually have a light gray background.
+if isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor',[.9 .9 .9]);
+end
+
+
+% --- Executes on slider movement.
+function slider_pz_Callback(hObject, eventdata, handles)
+% hObject    handle to slider_pz (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'Value') returns position of slider
+%        get(hObject,'Min') and get(hObject,'Max') to determine range of slider
 
 
 % --- Executes during object creation, after setting all properties.
-function axes7_CreateFcn(~, ~, ~)
-% hObject    handle to axes4 (see GCBO)
+function slider_pz_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to slider_pz (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
-imshow('C:\Users\20151\Desktop\Robotics\Final Project\Robotic_Arm_Real_Time_Control_Using_Matlab_GUI-main\Overview\SolidWorks-Logo.png');
-% Hint: place code in OpeningFcn to populate axes4
+
+% Hint: slider controls usually have a light gray background.
+if isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor',[.9 .9 .9]);
+end
 
 
 % --- Executes during object creation, after setting all properties.
+function img_logoSolid_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to img_logoSolid (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+imshow('C:\Users\20151\Desktop\Robotics\Final_Project\Final_Robotics\Overview\logoSolidworks.png');
+% Hint: place code in OpeningFcn to populate img_logoSolid
+
+
+% --- Executes during object creation, after setting all properties.
+function img_logoMatlab_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to img_logoMatlab (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+imshow('C:\Users\20151\Desktop\Robotics\Final_Project\Final_Robotics\Overview\logoMatlab.jpg');
+% Hint: place code in OpeningFcn to populate img_logoMatlab
+
+
+% --- Executes during object creation, after setting all properties.
+function img_Robot_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to img_Robot (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+imshow('C:\Users\20151\Desktop\Robotics\Final_Project\Final_Robotics\Overview\Robot.png');
+% Hint: place code in OpeningFcn to populate img_Robot
