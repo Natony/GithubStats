@@ -461,7 +461,6 @@ function edit_px_Callback(hObject, eventdata, handles)
 
 px_new = get(handles.edit_px,'String');
 px_new = str2num(px_new);
-px_invert = px_new;
 set(handles.edit21,'string',num2str(px_new));
 
 % Hints: get(hObject,'String') returns contents of edit_px as text

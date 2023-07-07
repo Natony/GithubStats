@@ -22,7 +22,7 @@ function varargout = mainwindow(varargin)
 
 % Edit the above text to modify the response to help mainwindow
 
-% Last Modified by GUIDE v2.5 04-Jul-2023 09:33:27
+% Last Modified by GUIDE v2.5 07-Jul-2023 16:51:18
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -330,3 +330,6 @@ function img_logoTruong_CreateFcn(hObject, eventdata, handles)
 % handles    empty - handles not created until after all CreateFcns called
 imshow('C:\Users\20151\Desktop\Robotics\Final_Project\Final_Robotics\Overview\logoTruong.jpg');
 % Hint: place code in OpeningFcn to populate img_logoTruong
+
+
+% --- Executes during object creation, after setting all properties.
