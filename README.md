@@ -1,2 +1,0 @@
-# TiaPortal-SYSWashCar
-#ncc
