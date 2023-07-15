@@ -7,7 +7,7 @@
 <head runat="server">
     <title>Dữ Liệu - SCADA</title>
     <link href="css/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <style>
         body {
             width: 100%;
@@ -18,8 +18,11 @@
         }
     </style>
 </head>
-<body>
+<body style="background-color: rgba(235, 247, 242,0.8)">
     <form id="form1" runat="server">
+        <div class ="img"> 
+            <img class="img_resize" src="img/logo_truong.png" />
+        </div>
         <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server"></asp:ToolkitScriptManager>
         <div id="App_SideWrap">
             <div>
@@ -39,31 +42,37 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="lookup.aspx" id="li_lookup">Tra Cứu Dữ Liệu</a>
+                        <a id="li_lookup">Tra Cứu Dữ Liệu</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="lookup.aspx">Tra Cứu Dữ Liệu Hệ Thống 1</a>
+                            </li>
+                            <li>
+                                <a href="lookup_2.aspx">Tra Cứu Dữ Liệu Hệ Thống 2</a>
+                            </li>                               
+                        </ul>
                     </li>
                     <li>
-                        <a id="li_topic">Giới Thiệu Đề Tài</a>
+                        <a href="topic_1.aspx" id="li_topic">Giới Thiệu Đề Tài</a>
                         <ul class="sub-menu">
                             <li>
                                 <a href="topic_1.aspx">Hệ Thống Chiết Rót Nước Tự Động</a>
                             </li>
                             <li>
-                                <a href="topic_2.aspx">Hệ thống 2</a>
+                                <a href="topic_2.aspx">Hệ Thống Sản Xuất Bánh Tự Động</a>
                             </li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
+        <h1 style="margin-right: 20px; text-align:center">Hệ thống 2</h1>
         <div class="table_data">
-            <div>
-                <h1>Hệ thống 2</h1>
-            </div>
-            <asp:Literal ID="Literal_HienThiGiaTri" runat="server"></asp:Literal>
+            <asp:Literal ID="Literal2_HienThiGiaTri" runat="server"></asp:Literal>
         </div>
     </form>
-    <footer>
-        <h2>Thông Tin Liên Hệ</h2>
+     <footer id ="footer">
+        <h2 style="padding-top: 10px">Thông Tin Liên Hệ</h2>
         <ul>
             <li>Địa chỉ: Trường Đại Học Sư Phạm Kỹ Thuật TP.HCM 01 Đ. Võ Văn Ngân, Linh Chiểu, Thủ Đức, Thành phố Hồ Chí Minh</li>
             <li>Hotline: 0977 999 999</li>
@@ -73,7 +82,7 @@
         <div class="dk-footer-box-info">
             <div class="footer-social-link">
                 <h2>Follow us</h2>
-                <ul>
+                <ul style="padding-bottom: 10px">
                     <li>
                         <a href="#">
                             <i class="fa fa-facebook"></i>

@@ -11,7 +11,6 @@ using System.Text;
 public partial class dtb_1 : System.Web.UI.Page
 {
     dtb _sql;
-
     protected void Page_Load(object sender, EventArgs e)
     {
         string connectionString = ConfigurationManager.ConnectionStrings["ConStr"].ToString();

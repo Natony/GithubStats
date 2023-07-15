@@ -39,7 +39,15 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="lookup.aspx" id="li_lookup">Tra Cứu Dữ Liệu</a>
+                        <a id="li_lookup">Tra Cứu Dữ Liệu</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="lookup.aspx">Tra Cứu Dữ Liệu Hệ Thống 1</a>
+                            </li>
+                            <li>
+                                <a href="lookup_2.aspx">Tra Cứu Dữ Liệu Hệ Thống 2</a>
+                            </li>                               
+                        </ul>
                     </li>
                     <li>
                         <a href="topic_1.aspx" id="li_topic">Giới Thiệu Đề Tài</a>
@@ -48,7 +56,7 @@
                                 <a href="topic_1.aspx">Hệ Thống Chiết Rót Nước Tự Động</a>
                             </li>
                             <li>
-                                <a href="topic_2.aspx">Hệ thống 2</a>
+                                <a href="topic_2.aspx">Hệ Thống Sản Xuất Bánh Tự Động</a>
                             </li>
                         </ul>
                     </li>
@@ -56,7 +64,7 @@
             </div>
         </div>
         <div class="topic-content">
-            <h1 style ="text-align: center; font-size: 2.3rem; margin: 25px auto 10px auto; font-family:serif; color: red"> TÊN ĐỀ TÀI: HỆ THỐNG CHIẾT RÓT TỰ ĐỘNG</h1>
+            <h1 style ="text-align: center; font-size: 2.3rem; margin: 25px auto 10px auto; font-family:serif; color: red"> WEBSITE GIÁM SÁT HỆ THỐNG</h1>
             <h2  style ="margin-left: 400px"> GVHD: TS.NGUYỄN VĂN THÁI</h2>
             <h2  style ="margin-left: 400px; margin-top: 10px">NHÓM THỰC HIỆN:</h2>
             <div style="display: inline-flex; font-size: 1.6rem">
@@ -75,24 +83,6 @@
                 <p style ="margin-left: 470px; margin-top: 10px; min-width: 220px"> 4. Nguyễn Công Minh</p>
                 <p style ="margin-left: 60px; margin-top: 10px"> MSSV: 20151224</p>
             </div>
-        </div>
-        <div>
-            <h1 style ="font-size: 1.8rem; margin: 25px auto auto 300px; font-family:serif; color: red"> 1. Hình Ảnh Minh Họa Giám Sát SCADA</h1>
-            <div style ="text-align: center; margin-top: 25px">
-                <img src ="img/he_thong.jpg"  style =" width: 50%;"/>
-            </div>
-        </div>
-        <div>
-            <h1 style ="font-size: 1.8rem; margin: 25px auto auto 300px; font-family:serif; color: red"> 2. Video Mô Phỏng Giám Sát SCADA</h1>
-        </div>
-        <div style ="text-align: center; margin-top: 25px">
-            <video width="50%" src="Video/Video.mp4" type="video/mp4" controls></video>
-        </div>
-        <div>
-            <h1 style ="font-size: 1.8rem; margin: 25px auto auto 300px; font-family:serif; color: red"> 3. Video Minh Họa Hệ Thống Thực Tế</h1>
-        </div>
-        <div style ="text-align: center; margin-top: 25px">
-            <video width="50%" src="Video/he_thong_chiet_rot.mp4" type ="video/mp4" controls></video>
         </div>
     </form>
   <footer id ="footer">

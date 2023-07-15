@@ -52,7 +52,7 @@ public class SQL_MNP
             {
                 whereClause += "AND ";
             }
-            whereClause += "Time >= CONVERT(datetime, N'" + startTime + "', 120) ";
+            whereClause += "Time >= CONVERT(datetime, N'" + startTime + "', 103) ";
         }
 
         if (!string.IsNullOrEmpty(endTime))
@@ -61,7 +61,7 @@ public class SQL_MNP
             {
                 whereClause += "AND ";
             }
-            whereClause += "Time <= CONVERT(datetime, N'" + endTime + "', 120) ";
+            whereClause += "Time <= CONVERT(datetime, N'" + endTime + "', 103) ";
         }
         string strSQL = strSQL_base;
         if(!string.IsNullOrEmpty(whereClause))
