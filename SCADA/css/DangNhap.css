@@ -1,0 +1,77 @@
+﻿.wraper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login {
+    max-width: 400px;
+    min-height: 200px;
+    background-image: linear-gradient(0,#750404,#ff0000);
+    flex-grow: 1;
+    padding: 30px 40px 30px;
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.8);
+}
+
+.Login__header {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Login_header {
+    margin: 0px 0px 0px 0px;
+}
+
+.Login-form {
+    max-width: 400px;
+    display: inline-flex;
+    height: 40px;
+    background-color: transparent;
+    border-bottom: solid 1px #ffffff
+}
+
+    .Login-form i {
+        margin-top: 10px;
+        margin-right: 8px;
+        height: 14px;
+        min-width: 14px;
+    }
+
+#txt_TK {
+    margin-top: 5px;
+    font-size: 20px;
+    background-color: transparent;
+    width: 400px;
+    height: 30px;
+    border: 0px;
+    outline: 0px;
+}
+
+#txt_MK {
+    margin-top: 5px;
+    font-size: 20px;
+    background-color: transparent;
+    width: 400px;
+    height: 30px;
+    border: 0px;
+    outline: 0px;
+}
+
+.Login__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Btn_dangnhap {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+    min-height: 30px;
+    background-color: #030842;
+}
