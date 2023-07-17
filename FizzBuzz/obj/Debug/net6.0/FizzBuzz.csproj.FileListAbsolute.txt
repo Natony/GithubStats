@@ -1,0 +1,15 @@
+C:\Users\20151\Desktop\csharp\FizzBuzz\bin\Debug\net6.0\FizzBuzz.exe
+C:\Users\20151\Desktop\csharp\FizzBuzz\bin\Debug\net6.0\FizzBuzz.deps.json
+C:\Users\20151\Desktop\csharp\FizzBuzz\bin\Debug\net6.0\FizzBuzz.runtimeconfig.json
+C:\Users\20151\Desktop\csharp\FizzBuzz\bin\Debug\net6.0\FizzBuzz.dll
+C:\Users\20151\Desktop\csharp\FizzBuzz\bin\Debug\net6.0\ref\FizzBuzz.dll
+C:\Users\20151\Desktop\csharp\FizzBuzz\bin\Debug\net6.0\FizzBuzz.pdb
+C:\Users\20151\Desktop\csharp\FizzBuzz\obj\Debug\net6.0\FizzBuzz.csproj.AssemblyReference.cache
+C:\Users\20151\Desktop\csharp\FizzBuzz\obj\Debug\net6.0\FizzBuzz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20151\Desktop\csharp\FizzBuzz\obj\Debug\net6.0\FizzBuzz.AssemblyInfoInputs.cache
+C:\Users\20151\Desktop\csharp\FizzBuzz\obj\Debug\net6.0\FizzBuzz.AssemblyInfo.cs
+C:\Users\20151\Desktop\csharp\FizzBuzz\obj\Debug\net6.0\FizzBuzz.csproj.CoreCompileInputs.cache
+C:\Users\20151\Desktop\csharp\FizzBuzz\obj\Debug\net6.0\FizzBuzz.dll
+C:\Users\20151\Desktop\csharp\FizzBuzz\obj\Debug\net6.0\ref\FizzBuzz.dll
+C:\Users\20151\Desktop\csharp\FizzBuzz\obj\Debug\net6.0\FizzBuzz.pdb
+C:\Users\20151\Desktop\csharp\FizzBuzz\obj\Debug\net6.0\FizzBuzz.genruntimeconfig.cache

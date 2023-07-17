@@ -1,0 +1,4 @@
+{
+    "dotnet.defaultSolution": "Testproject.sln",
+    "git.ignoreLimitWarning": true
+}
