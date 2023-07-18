@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Identifyduplicated/1.0.0": {
+        "runtime": {
+          "Identifyduplicated.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Identifyduplicated/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

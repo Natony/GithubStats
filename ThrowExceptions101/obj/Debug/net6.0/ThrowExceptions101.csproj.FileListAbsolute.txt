@@ -1,0 +1,15 @@
+C:\Users\20151\Desktop\csharp\ThrowExceptions101\bin\Debug\net6.0\ThrowExceptions101.exe
+C:\Users\20151\Desktop\csharp\ThrowExceptions101\bin\Debug\net6.0\ThrowExceptions101.deps.json
+C:\Users\20151\Desktop\csharp\ThrowExceptions101\bin\Debug\net6.0\ThrowExceptions101.runtimeconfig.json
+C:\Users\20151\Desktop\csharp\ThrowExceptions101\bin\Debug\net6.0\ThrowExceptions101.dll
+C:\Users\20151\Desktop\csharp\ThrowExceptions101\bin\Debug\net6.0\ref\ThrowExceptions101.dll
+C:\Users\20151\Desktop\csharp\ThrowExceptions101\bin\Debug\net6.0\ThrowExceptions101.pdb
+C:\Users\20151\Desktop\csharp\ThrowExceptions101\obj\Debug\net6.0\ThrowExceptions101.csproj.AssemblyReference.cache
+C:\Users\20151\Desktop\csharp\ThrowExceptions101\obj\Debug\net6.0\ThrowExceptions101.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20151\Desktop\csharp\ThrowExceptions101\obj\Debug\net6.0\ThrowExceptions101.AssemblyInfoInputs.cache
+C:\Users\20151\Desktop\csharp\ThrowExceptions101\obj\Debug\net6.0\ThrowExceptions101.AssemblyInfo.cs
+C:\Users\20151\Desktop\csharp\ThrowExceptions101\obj\Debug\net6.0\ThrowExceptions101.csproj.CoreCompileInputs.cache
+C:\Users\20151\Desktop\csharp\ThrowExceptions101\obj\Debug\net6.0\ThrowExceptions101.dll
+C:\Users\20151\Desktop\csharp\ThrowExceptions101\obj\Debug\net6.0\ref\ThrowExceptions101.dll
+C:\Users\20151\Desktop\csharp\ThrowExceptions101\obj\Debug\net6.0\ThrowExceptions101.pdb
+C:\Users\20151\Desktop\csharp\ThrowExceptions101\obj\Debug\net6.0\ThrowExceptions101.genruntimeconfig.cache

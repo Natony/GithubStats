@@ -1,0 +1,15 @@
+C:\Users\20151\Desktop\csharp\ContosoPettingZoo\bin\Debug\net6.0\ContosoPettingZoo.exe
+C:\Users\20151\Desktop\csharp\ContosoPettingZoo\bin\Debug\net6.0\ContosoPettingZoo.deps.json
+C:\Users\20151\Desktop\csharp\ContosoPettingZoo\bin\Debug\net6.0\ContosoPettingZoo.runtimeconfig.json
+C:\Users\20151\Desktop\csharp\ContosoPettingZoo\bin\Debug\net6.0\ContosoPettingZoo.dll
+C:\Users\20151\Desktop\csharp\ContosoPettingZoo\bin\Debug\net6.0\ref\ContosoPettingZoo.dll
+C:\Users\20151\Desktop\csharp\ContosoPettingZoo\bin\Debug\net6.0\ContosoPettingZoo.pdb
+C:\Users\20151\Desktop\csharp\ContosoPettingZoo\obj\Debug\net6.0\ContosoPettingZoo.csproj.AssemblyReference.cache
+C:\Users\20151\Desktop\csharp\ContosoPettingZoo\obj\Debug\net6.0\ContosoPettingZoo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20151\Desktop\csharp\ContosoPettingZoo\obj\Debug\net6.0\ContosoPettingZoo.AssemblyInfoInputs.cache
+C:\Users\20151\Desktop\csharp\ContosoPettingZoo\obj\Debug\net6.0\ContosoPettingZoo.AssemblyInfo.cs
+C:\Users\20151\Desktop\csharp\ContosoPettingZoo\obj\Debug\net6.0\ContosoPettingZoo.csproj.CoreCompileInputs.cache
+C:\Users\20151\Desktop\csharp\ContosoPettingZoo\obj\Debug\net6.0\ContosoPettingZoo.dll
+C:\Users\20151\Desktop\csharp\ContosoPettingZoo\obj\Debug\net6.0\ref\ContosoPettingZoo.dll
+C:\Users\20151\Desktop\csharp\ContosoPettingZoo\obj\Debug\net6.0\ContosoPettingZoo.pdb
+C:\Users\20151\Desktop\csharp\ContosoPettingZoo\obj\Debug\net6.0\ContosoPettingZoo.genruntimeconfig.cache

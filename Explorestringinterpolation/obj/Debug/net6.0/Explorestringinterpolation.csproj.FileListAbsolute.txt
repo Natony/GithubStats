@@ -1,0 +1,15 @@
+C:\Users\20151\Desktop\csharp\Explorestringinterpolation\bin\Debug\net6.0\Explorestringinterpolation.exe
+C:\Users\20151\Desktop\csharp\Explorestringinterpolation\bin\Debug\net6.0\Explorestringinterpolation.deps.json
+C:\Users\20151\Desktop\csharp\Explorestringinterpolation\bin\Debug\net6.0\Explorestringinterpolation.runtimeconfig.json
+C:\Users\20151\Desktop\csharp\Explorestringinterpolation\bin\Debug\net6.0\Explorestringinterpolation.dll
+C:\Users\20151\Desktop\csharp\Explorestringinterpolation\bin\Debug\net6.0\ref\Explorestringinterpolation.dll
+C:\Users\20151\Desktop\csharp\Explorestringinterpolation\bin\Debug\net6.0\Explorestringinterpolation.pdb
+C:\Users\20151\Desktop\csharp\Explorestringinterpolation\obj\Debug\net6.0\Explorestringinterpolation.csproj.AssemblyReference.cache
+C:\Users\20151\Desktop\csharp\Explorestringinterpolation\obj\Debug\net6.0\Explorestringinterpolation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20151\Desktop\csharp\Explorestringinterpolation\obj\Debug\net6.0\Explorestringinterpolation.AssemblyInfoInputs.cache
+C:\Users\20151\Desktop\csharp\Explorestringinterpolation\obj\Debug\net6.0\Explorestringinterpolation.AssemblyInfo.cs
+C:\Users\20151\Desktop\csharp\Explorestringinterpolation\obj\Debug\net6.0\Explorestringinterpolation.csproj.CoreCompileInputs.cache
+C:\Users\20151\Desktop\csharp\Explorestringinterpolation\obj\Debug\net6.0\Explorestringinterpolation.dll
+C:\Users\20151\Desktop\csharp\Explorestringinterpolation\obj\Debug\net6.0\ref\Explorestringinterpolation.dll
+C:\Users\20151\Desktop\csharp\Explorestringinterpolation\obj\Debug\net6.0\Explorestringinterpolation.pdb
+C:\Users\20151\Desktop\csharp\Explorestringinterpolation\obj\Debug\net6.0\Explorestringinterpolation.genruntimeconfig.cache

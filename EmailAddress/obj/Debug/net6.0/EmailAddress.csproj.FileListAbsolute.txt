@@ -1,0 +1,15 @@
+C:\Users\20151\Desktop\csharp\EmailAddress\bin\Debug\net6.0\EmailAddress.exe
+C:\Users\20151\Desktop\csharp\EmailAddress\bin\Debug\net6.0\EmailAddress.deps.json
+C:\Users\20151\Desktop\csharp\EmailAddress\bin\Debug\net6.0\EmailAddress.runtimeconfig.json
+C:\Users\20151\Desktop\csharp\EmailAddress\bin\Debug\net6.0\EmailAddress.dll
+C:\Users\20151\Desktop\csharp\EmailAddress\bin\Debug\net6.0\ref\EmailAddress.dll
+C:\Users\20151\Desktop\csharp\EmailAddress\bin\Debug\net6.0\EmailAddress.pdb
+C:\Users\20151\Desktop\csharp\EmailAddress\obj\Debug\net6.0\EmailAddress.csproj.AssemblyReference.cache
+C:\Users\20151\Desktop\csharp\EmailAddress\obj\Debug\net6.0\EmailAddress.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20151\Desktop\csharp\EmailAddress\obj\Debug\net6.0\EmailAddress.AssemblyInfoInputs.cache
+C:\Users\20151\Desktop\csharp\EmailAddress\obj\Debug\net6.0\EmailAddress.AssemblyInfo.cs
+C:\Users\20151\Desktop\csharp\EmailAddress\obj\Debug\net6.0\EmailAddress.csproj.CoreCompileInputs.cache
+C:\Users\20151\Desktop\csharp\EmailAddress\obj\Debug\net6.0\EmailAddress.dll
+C:\Users\20151\Desktop\csharp\EmailAddress\obj\Debug\net6.0\ref\EmailAddress.dll
+C:\Users\20151\Desktop\csharp\EmailAddress\obj\Debug\net6.0\EmailAddress.pdb
+C:\Users\20151\Desktop\csharp\EmailAddress\obj\Debug\net6.0\EmailAddress.genruntimeconfig.cache

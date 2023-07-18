@@ -1,0 +1,15 @@
+C:\Users\20151\Desktop\csharp\Debug102\bin\Debug\net6.0\Debug102.exe
+C:\Users\20151\Desktop\csharp\Debug102\bin\Debug\net6.0\Debug102.deps.json
+C:\Users\20151\Desktop\csharp\Debug102\bin\Debug\net6.0\Debug102.runtimeconfig.json
+C:\Users\20151\Desktop\csharp\Debug102\bin\Debug\net6.0\Debug102.dll
+C:\Users\20151\Desktop\csharp\Debug102\bin\Debug\net6.0\ref\Debug102.dll
+C:\Users\20151\Desktop\csharp\Debug102\bin\Debug\net6.0\Debug102.pdb
+C:\Users\20151\Desktop\csharp\Debug102\obj\Debug\net6.0\Debug102.csproj.AssemblyReference.cache
+C:\Users\20151\Desktop\csharp\Debug102\obj\Debug\net6.0\Debug102.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20151\Desktop\csharp\Debug102\obj\Debug\net6.0\Debug102.AssemblyInfoInputs.cache
+C:\Users\20151\Desktop\csharp\Debug102\obj\Debug\net6.0\Debug102.AssemblyInfo.cs
+C:\Users\20151\Desktop\csharp\Debug102\obj\Debug\net6.0\Debug102.csproj.CoreCompileInputs.cache
+C:\Users\20151\Desktop\csharp\Debug102\obj\Debug\net6.0\Debug102.dll
+C:\Users\20151\Desktop\csharp\Debug102\obj\Debug\net6.0\ref\Debug102.dll
+C:\Users\20151\Desktop\csharp\Debug102\obj\Debug\net6.0\Debug102.pdb
+C:\Users\20151\Desktop\csharp\Debug102\obj\Debug\net6.0\Debug102.genruntimeconfig.cache

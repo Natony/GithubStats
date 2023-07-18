@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "dotnet",
+			"task": "watch RadomGame1",
+			"file": "c:\\Users\\20151\\Desktop\\csharp\\RadomGame1\\RadomGame1.csproj",
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"label": "dotnet: watch RadomGame1",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "msbuild",
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build",
+			"label": "Build: RadomGame1.csproj",
+			"detail": "Build the RadomGame1.csproj project using dotnet build"
+		}
+	]
+}

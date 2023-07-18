@@ -1,0 +1,15 @@
+C:\Users\20151\Desktop\csharp\ExampleHtml\bin\Debug\net6.0\ExampleHtml.exe
+C:\Users\20151\Desktop\csharp\ExampleHtml\bin\Debug\net6.0\ExampleHtml.deps.json
+C:\Users\20151\Desktop\csharp\ExampleHtml\bin\Debug\net6.0\ExampleHtml.runtimeconfig.json
+C:\Users\20151\Desktop\csharp\ExampleHtml\bin\Debug\net6.0\ExampleHtml.dll
+C:\Users\20151\Desktop\csharp\ExampleHtml\bin\Debug\net6.0\ref\ExampleHtml.dll
+C:\Users\20151\Desktop\csharp\ExampleHtml\bin\Debug\net6.0\ExampleHtml.pdb
+C:\Users\20151\Desktop\csharp\ExampleHtml\obj\Debug\net6.0\ExampleHtml.csproj.AssemblyReference.cache
+C:\Users\20151\Desktop\csharp\ExampleHtml\obj\Debug\net6.0\ExampleHtml.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20151\Desktop\csharp\ExampleHtml\obj\Debug\net6.0\ExampleHtml.AssemblyInfoInputs.cache
+C:\Users\20151\Desktop\csharp\ExampleHtml\obj\Debug\net6.0\ExampleHtml.AssemblyInfo.cs
+C:\Users\20151\Desktop\csharp\ExampleHtml\obj\Debug\net6.0\ExampleHtml.csproj.CoreCompileInputs.cache
+C:\Users\20151\Desktop\csharp\ExampleHtml\obj\Debug\net6.0\ExampleHtml.dll
+C:\Users\20151\Desktop\csharp\ExampleHtml\obj\Debug\net6.0\ref\ExampleHtml.dll
+C:\Users\20151\Desktop\csharp\ExampleHtml\obj\Debug\net6.0\ExampleHtml.pdb
+C:\Users\20151\Desktop\csharp\ExampleHtml\obj\Debug\net6.0\ExampleHtml.genruntimeconfig.cache

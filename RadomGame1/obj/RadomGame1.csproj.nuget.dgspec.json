@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\20151\\Desktop\\csharp\\RadomGame1\\RadomGame1.csproj": {}
+    "c:\\Users\\20151\\Desktop\\csharp\\RadomGame1\\RadomGame1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\20151\\Desktop\\csharp\\RadomGame1\\RadomGame1.csproj": {
+    "c:\\Users\\20151\\Desktop\\csharp\\RadomGame1\\RadomGame1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\20151\\Desktop\\csharp\\RadomGame1\\RadomGame1.csproj",
+        "projectUniqueName": "c:\\Users\\20151\\Desktop\\csharp\\RadomGame1\\RadomGame1.csproj",
         "projectName": "RadomGame1",
-        "projectPath": "C:\\Users\\20151\\Desktop\\csharp\\RadomGame1\\RadomGame1.csproj",
+        "projectPath": "c:\\Users\\20151\\Desktop\\csharp\\RadomGame1\\RadomGame1.csproj",
         "packagesPath": "C:\\Users\\20151\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\20151\\Desktop\\csharp\\RadomGame1\\obj\\",
+        "outputPath": "c:\\Users\\20151\\Desktop\\csharp\\RadomGame1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,0 +1,15 @@
+C:\Users\20151\Desktop\csharp\codeProject1\bin\Debug\net6.0\codeProject1.exe
+C:\Users\20151\Desktop\csharp\codeProject1\bin\Debug\net6.0\codeProject1.deps.json
+C:\Users\20151\Desktop\csharp\codeProject1\bin\Debug\net6.0\codeProject1.runtimeconfig.json
+C:\Users\20151\Desktop\csharp\codeProject1\bin\Debug\net6.0\codeProject1.dll
+C:\Users\20151\Desktop\csharp\codeProject1\bin\Debug\net6.0\ref\codeProject1.dll
+C:\Users\20151\Desktop\csharp\codeProject1\bin\Debug\net6.0\codeProject1.pdb
+C:\Users\20151\Desktop\csharp\codeProject1\obj\Debug\net6.0\codeProject1.csproj.AssemblyReference.cache
+C:\Users\20151\Desktop\csharp\codeProject1\obj\Debug\net6.0\codeProject1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20151\Desktop\csharp\codeProject1\obj\Debug\net6.0\codeProject1.AssemblyInfoInputs.cache
+C:\Users\20151\Desktop\csharp\codeProject1\obj\Debug\net6.0\codeProject1.AssemblyInfo.cs
+C:\Users\20151\Desktop\csharp\codeProject1\obj\Debug\net6.0\codeProject1.csproj.CoreCompileInputs.cache
+C:\Users\20151\Desktop\csharp\codeProject1\obj\Debug\net6.0\codeProject1.dll
+C:\Users\20151\Desktop\csharp\codeProject1\obj\Debug\net6.0\ref\codeProject1.dll
+C:\Users\20151\Desktop\csharp\codeProject1\obj\Debug\net6.0\codeProject1.pdb
+C:\Users\20151\Desktop\csharp\codeProject1\obj\Debug\net6.0\codeProject1.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+C:\Users\20151\Desktop\csharp\totalPurchasePrice\bin\Debug\net6.0\totalPurchasePrice.exe
+C:\Users\20151\Desktop\csharp\totalPurchasePrice\bin\Debug\net6.0\totalPurchasePrice.deps.json
+C:\Users\20151\Desktop\csharp\totalPurchasePrice\bin\Debug\net6.0\totalPurchasePrice.runtimeconfig.json
+C:\Users\20151\Desktop\csharp\totalPurchasePrice\bin\Debug\net6.0\totalPurchasePrice.dll
+C:\Users\20151\Desktop\csharp\totalPurchasePrice\bin\Debug\net6.0\ref\totalPurchasePrice.dll
+C:\Users\20151\Desktop\csharp\totalPurchasePrice\bin\Debug\net6.0\totalPurchasePrice.pdb
+C:\Users\20151\Desktop\csharp\totalPurchasePrice\obj\Debug\net6.0\totalPurchasePrice.csproj.AssemblyReference.cache
+C:\Users\20151\Desktop\csharp\totalPurchasePrice\obj\Debug\net6.0\totalPurchasePrice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20151\Desktop\csharp\totalPurchasePrice\obj\Debug\net6.0\totalPurchasePrice.AssemblyInfoInputs.cache
+C:\Users\20151\Desktop\csharp\totalPurchasePrice\obj\Debug\net6.0\totalPurchasePrice.AssemblyInfo.cs
+C:\Users\20151\Desktop\csharp\totalPurchasePrice\obj\Debug\net6.0\totalPurchasePrice.csproj.CoreCompileInputs.cache
+C:\Users\20151\Desktop\csharp\totalPurchasePrice\obj\Debug\net6.0\totalPurchasePrice.dll
+C:\Users\20151\Desktop\csharp\totalPurchasePrice\obj\Debug\net6.0\ref\totalPurchasePrice.dll
+C:\Users\20151\Desktop\csharp\totalPurchasePrice\obj\Debug\net6.0\totalPurchasePrice.pdb
+C:\Users\20151\Desktop\csharp\totalPurchasePrice\obj\Debug\net6.0\totalPurchasePrice.genruntimeconfig.cache

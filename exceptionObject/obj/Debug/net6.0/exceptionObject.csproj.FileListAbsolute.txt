@@ -1,0 +1,15 @@
+C:\Users\20151\Desktop\csharp\exceptionObject\bin\Debug\net6.0\exceptionObject.exe
+C:\Users\20151\Desktop\csharp\exceptionObject\bin\Debug\net6.0\exceptionObject.deps.json
+C:\Users\20151\Desktop\csharp\exceptionObject\bin\Debug\net6.0\exceptionObject.runtimeconfig.json
+C:\Users\20151\Desktop\csharp\exceptionObject\bin\Debug\net6.0\exceptionObject.dll
+C:\Users\20151\Desktop\csharp\exceptionObject\bin\Debug\net6.0\ref\exceptionObject.dll
+C:\Users\20151\Desktop\csharp\exceptionObject\bin\Debug\net6.0\exceptionObject.pdb
+C:\Users\20151\Desktop\csharp\exceptionObject\obj\Debug\net6.0\exceptionObject.csproj.AssemblyReference.cache
+C:\Users\20151\Desktop\csharp\exceptionObject\obj\Debug\net6.0\exceptionObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20151\Desktop\csharp\exceptionObject\obj\Debug\net6.0\exceptionObject.AssemblyInfoInputs.cache
+C:\Users\20151\Desktop\csharp\exceptionObject\obj\Debug\net6.0\exceptionObject.AssemblyInfo.cs
+C:\Users\20151\Desktop\csharp\exceptionObject\obj\Debug\net6.0\exceptionObject.csproj.CoreCompileInputs.cache
+C:\Users\20151\Desktop\csharp\exceptionObject\obj\Debug\net6.0\exceptionObject.dll
+C:\Users\20151\Desktop\csharp\exceptionObject\obj\Debug\net6.0\ref\exceptionObject.dll
+C:\Users\20151\Desktop\csharp\exceptionObject\obj\Debug\net6.0\exceptionObject.pdb
+C:\Users\20151\Desktop\csharp\exceptionObject\obj\Debug\net6.0\exceptionObject.genruntimeconfig.cache

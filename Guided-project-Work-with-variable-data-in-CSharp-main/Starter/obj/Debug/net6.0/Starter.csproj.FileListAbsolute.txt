@@ -1,0 +1,15 @@
+C:\Users\20151\Desktop\csharp\Guided-project-Work-with-variable-data-in-CSharp-main\Starter\bin\Debug\net6.0\Starter.exe
+C:\Users\20151\Desktop\csharp\Guided-project-Work-with-variable-data-in-CSharp-main\Starter\bin\Debug\net6.0\Starter.deps.json
+C:\Users\20151\Desktop\csharp\Guided-project-Work-with-variable-data-in-CSharp-main\Starter\bin\Debug\net6.0\Starter.runtimeconfig.json
+C:\Users\20151\Desktop\csharp\Guided-project-Work-with-variable-data-in-CSharp-main\Starter\bin\Debug\net6.0\Starter.dll
+C:\Users\20151\Desktop\csharp\Guided-project-Work-with-variable-data-in-CSharp-main\Starter\bin\Debug\net6.0\ref\Starter.dll
+C:\Users\20151\Desktop\csharp\Guided-project-Work-with-variable-data-in-CSharp-main\Starter\bin\Debug\net6.0\Starter.pdb
+C:\Users\20151\Desktop\csharp\Guided-project-Work-with-variable-data-in-CSharp-main\Starter\obj\Debug\net6.0\Starter.csproj.AssemblyReference.cache
+C:\Users\20151\Desktop\csharp\Guided-project-Work-with-variable-data-in-CSharp-main\Starter\obj\Debug\net6.0\Starter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20151\Desktop\csharp\Guided-project-Work-with-variable-data-in-CSharp-main\Starter\obj\Debug\net6.0\Starter.AssemblyInfoInputs.cache
+C:\Users\20151\Desktop\csharp\Guided-project-Work-with-variable-data-in-CSharp-main\Starter\obj\Debug\net6.0\Starter.AssemblyInfo.cs
+C:\Users\20151\Desktop\csharp\Guided-project-Work-with-variable-data-in-CSharp-main\Starter\obj\Debug\net6.0\Starter.csproj.CoreCompileInputs.cache
+C:\Users\20151\Desktop\csharp\Guided-project-Work-with-variable-data-in-CSharp-main\Starter\obj\Debug\net6.0\Starter.dll
+C:\Users\20151\Desktop\csharp\Guided-project-Work-with-variable-data-in-CSharp-main\Starter\obj\Debug\net6.0\ref\Starter.dll
+C:\Users\20151\Desktop\csharp\Guided-project-Work-with-variable-data-in-CSharp-main\Starter\obj\Debug\net6.0\Starter.pdb
+C:\Users\20151\Desktop\csharp\Guided-project-Work-with-variable-data-in-CSharp-main\Starter\obj\Debug\net6.0\Starter.genruntimeconfig.cache

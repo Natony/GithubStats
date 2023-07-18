@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Explorestringinterpolation/1.0.0": {
+        "runtime": {
+          "Explorestringinterpolation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Explorestringinterpolation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

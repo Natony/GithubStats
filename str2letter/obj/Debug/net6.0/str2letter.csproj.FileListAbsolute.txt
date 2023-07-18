@@ -1,0 +1,15 @@
+C:\Users\20151\Desktop\csharp\str2letter\obj\Debug\net6.0\str2letter.csproj.AssemblyReference.cache
+C:\Users\20151\Desktop\csharp\str2letter\obj\Debug\net6.0\str2letter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20151\Desktop\csharp\str2letter\obj\Debug\net6.0\str2letter.AssemblyInfoInputs.cache
+C:\Users\20151\Desktop\csharp\str2letter\obj\Debug\net6.0\str2letter.AssemblyInfo.cs
+C:\Users\20151\Desktop\csharp\str2letter\obj\Debug\net6.0\str2letter.csproj.CoreCompileInputs.cache
+C:\Users\20151\Desktop\csharp\str2letter\bin\Debug\net6.0\str2letter.exe
+C:\Users\20151\Desktop\csharp\str2letter\bin\Debug\net6.0\str2letter.deps.json
+C:\Users\20151\Desktop\csharp\str2letter\bin\Debug\net6.0\str2letter.runtimeconfig.json
+C:\Users\20151\Desktop\csharp\str2letter\bin\Debug\net6.0\str2letter.dll
+C:\Users\20151\Desktop\csharp\str2letter\bin\Debug\net6.0\ref\str2letter.dll
+C:\Users\20151\Desktop\csharp\str2letter\bin\Debug\net6.0\str2letter.pdb
+C:\Users\20151\Desktop\csharp\str2letter\obj\Debug\net6.0\str2letter.dll
+C:\Users\20151\Desktop\csharp\str2letter\obj\Debug\net6.0\ref\str2letter.dll
+C:\Users\20151\Desktop\csharp\str2letter\obj\Debug\net6.0\str2letter.pdb
+C:\Users\20151\Desktop\csharp\str2letter\obj\Debug\net6.0\str2letter.genruntimeconfig.cache

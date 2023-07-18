@@ -1,0 +1,15 @@
+C:\Users\20151\Desktop\csharp\gameRollRandomNumber\bin\Debug\net6.0\gameRollRandomNumber.exe
+C:\Users\20151\Desktop\csharp\gameRollRandomNumber\bin\Debug\net6.0\gameRollRandomNumber.deps.json
+C:\Users\20151\Desktop\csharp\gameRollRandomNumber\bin\Debug\net6.0\gameRollRandomNumber.runtimeconfig.json
+C:\Users\20151\Desktop\csharp\gameRollRandomNumber\bin\Debug\net6.0\gameRollRandomNumber.dll
+C:\Users\20151\Desktop\csharp\gameRollRandomNumber\bin\Debug\net6.0\ref\gameRollRandomNumber.dll
+C:\Users\20151\Desktop\csharp\gameRollRandomNumber\bin\Debug\net6.0\gameRollRandomNumber.pdb
+C:\Users\20151\Desktop\csharp\gameRollRandomNumber\obj\Debug\net6.0\gameRollRandomNumber.csproj.AssemblyReference.cache
+C:\Users\20151\Desktop\csharp\gameRollRandomNumber\obj\Debug\net6.0\gameRollRandomNumber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20151\Desktop\csharp\gameRollRandomNumber\obj\Debug\net6.0\gameRollRandomNumber.AssemblyInfoInputs.cache
+C:\Users\20151\Desktop\csharp\gameRollRandomNumber\obj\Debug\net6.0\gameRollRandomNumber.AssemblyInfo.cs
+C:\Users\20151\Desktop\csharp\gameRollRandomNumber\obj\Debug\net6.0\gameRollRandomNumber.csproj.CoreCompileInputs.cache
+C:\Users\20151\Desktop\csharp\gameRollRandomNumber\obj\Debug\net6.0\gameRollRandomNumber.dll
+C:\Users\20151\Desktop\csharp\gameRollRandomNumber\obj\Debug\net6.0\ref\gameRollRandomNumber.dll
+C:\Users\20151\Desktop\csharp\gameRollRandomNumber\obj\Debug\net6.0\gameRollRandomNumber.pdb
+C:\Users\20151\Desktop\csharp\gameRollRandomNumber\obj\Debug\net6.0\gameRollRandomNumber.genruntimeconfig.cache
